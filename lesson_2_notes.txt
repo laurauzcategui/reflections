@@ -1,0 +1,8 @@
+When working with GIT we have 
+
+- Working directory 
+- Staging area 
+- Repository
+
+If you accidentally add a file to the staging area, you can remove it using git reset. For example, if you accidentally add lesson_2_reflections.txt, but don’t want it to be committed yet, run git reset lesson_2_reflections.txt
+
