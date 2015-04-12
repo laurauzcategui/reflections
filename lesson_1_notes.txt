@@ -1,0 +1,14 @@
+
+git diff to see the differences 
+git clone for clone a repository
+
+git colored output 
+ git config --global color.ui auto
+
+git checkout restore to a previous version
+git checkout [id_commit]
+
+
+dpkg-query -L firefox (find a program installed)
+
+a b $ c # % e 
