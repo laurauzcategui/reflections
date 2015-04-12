@@ -6,3 +6,6 @@ When working with GIT we have
 
 If you accidentally add a file to the staging area, you can remove it using git reset. For example, if you accidentally add lesson_2_reflections.txt, but don’t want it to be committed yet, run git reset lesson_2_reflections.txt
 
+git init operates on repository
+git add operates on staging area
+git status operates on staging area & working directory

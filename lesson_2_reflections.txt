@@ -3,3 +3,10 @@ What happens when you initialize a repository? Why do you need to do it?
 - It creates the .git directory with the metadata needed
 - It's needed because in that way we can start to tracking changes along the files
 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+ - It's different from WD because it allows you to separate 
+ the changes you are sure you want to commit 
+ - Offers the value to leave the work where you are and continue later
+
+ 
