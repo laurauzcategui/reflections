@@ -5,8 +5,29 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
- - It's different from WD because it allows you to separate 
- the changes you are sure you want to commit 
+ - It's different from WD because it allows you to separate
+ the changes you are sure you want to commit
  - Offers the value to leave the work where you are and continue later
 
- 
+
+ How can you use the staging area to make sure you have one commit per logical change?
+
+ - By doing a git diff comparing to WD and SA
+ - By doing a git diff --staged comparing SA and Repository
+
+ What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+  - When I want to work with a different functionality
+  - When I want to do some experiment
+
+  How do the diagrams help you visualize the branch structure?
+
+  - The diagrams helps to visualize when a commit is not reachable
+  - When changes or commits can be lost
+  - How many branches are in the project
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+- you may merge or include changes from both branches into one.
+
+

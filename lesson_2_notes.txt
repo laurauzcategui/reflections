@@ -1,7 +1,7 @@
-When working with GIT we have 
+When working with GIT we have
 
-- Working directory 
-- Staging area 
+- Working directory
+- Staging area
 - Repository
 
 If you accidentally add a file to the staging area, you can remove it using git reset. For example, if you accidentally add lesson_2_reflections.txt, but don’t want it to be committed yet, run git reset lesson_2_reflections.txt
@@ -9,3 +9,44 @@ If you accidentally add a file to the staging area, you can remove it using git 
 git init operates on repository
 git add operates on staging area
 git status operates on staging area & working directory
+
+df035382c41b4d0cda86a1aa30b53f15bef05b53 old
+25ede836903881848fea811df5b687b59d962da3 new
+
+this.delayBeforeBullet = 10;
+
+git diff show any changes between working directory and staging area
+git diff --staged display differences between staging and repository
+
+git reset --hard discard any changes
+if run this without staging you lost changes
+
+Branches
+--Master is the main branch for the repository
+
+-If i want to create a branch :
+  git branch [name]
+- If i want to switch between branches
+  git checkout [name of the branch]
+
+  allows to compare the branches
+
+  git log --graph --oneline master coins
+
+  reachability : one commit cannot be reached for other commits
+  one commit is not reacheable when you dont checkout from branch.
+
+  If you checkout from commit id and commit over it you might lose your changes
+  If you dont want to lose it you  could create a new branch by :
+
+  git checkout -b [new_branch_name]
+
+
+Git merge
+
+ git merge branch_1 branch_2
+
+ it should merge one branch into another (branch2 into branch1)
+
+
+
