@@ -1,0 +1,26 @@
+# Set git to use the credential memory cache
+git config --global credential.helper cache
+
+git config --global credential.helper 'cache --timeout=3600'
+# Set the cache to timeout after 1 hour (setting is in seconds)
+
+
+If i Want to see the existent
+ - git remote
+if I want to create the remot repository
+ - git remote add [name] URL  #name usually origin
+
+If I want to send the info will be
+- git push [local branch]
+
+ If I Want to push the repository
+
+- git pull [remote] [branch]
+
+
+
+
+
+
+
+
