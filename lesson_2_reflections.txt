@@ -31,3 +31,7 @@ What is the result of merging two branches together? Why do we represent it in t
 - you may merge or include changes from both branches into one.
 
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+ - automatic merging is useful because decrease the time from doing merge manually
+ - manually merge could cause conflicts because you can remove or add pieces of code that has been treated before.
